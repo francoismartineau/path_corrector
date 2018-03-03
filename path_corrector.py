@@ -42,6 +42,8 @@ def filtrer(path):
             chars.append("e")
         elif path[i] == "ç":
             chars.append("c")
+        elif path[i] == "à":
+            chars.append("a")
         elif path[i] == ".":
             point_pos.append(i)
             chars.append(".")
